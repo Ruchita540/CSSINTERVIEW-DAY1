@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+    <style>
+        .main {
+            text-align:center; 
+        }
+        .GFG {
+            color:#009900;
+            font-size:30px;
+            font-weight:bold;
+        }
+        .geeks {
+            font-style:bold;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- difference between flex row and column -->
+    <!-- there should be no difference between flex-direction row and flex direction column If there is only one child element -->
+    <!-- Explain inline,internal and external stylesheet -->
+    <!-- Inline CSS -->
+     <!-- Inline CSS contain the CSS property in the body section attached with the element is called inline CSS. -->
+     <p style="color: #009900; font-size:30px; font-style:italic; text-align:center; ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, magnam?</p>
+        <!-- Internal CSS -->
+       <!-- This can be used when a single HTML document must be styled uniquely. The CSS rule should be within the HTML file in the head section i.e the CSS is embedded within the HTML file. -->
+       <div class = "main">
+        <div class ="GFG">HELLO HTML</div>
+          
+        <div class ="geeks">
+            Welcome to my internal CSS.
+        </div>
+    </div>
+    <!-- Extenal CSS  -->
+    <!-- External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). CSS property written in a separate file with .css extension and should be linked to the HTML document using link tag. This means that for each element, style can be set only once and that will be applied across web pages. -->
+    <!-- Example: The file given below contains CSS property. This file save with .css extension.  -->
+      <div id="container">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam recusandae quam dolor obcaecati natus. Quam perspiciatis, maxime quidem accusamus vero obcaecati recusandae natus mollitia in molestias velit ipsam sunt nobis hic praesentium quisquam nesciunt ducimus incidunt id ut. Culpa, mollitia. Aliquid cupiditate commodi ratione perspiciatis natus asperiores ea saepe facilis.</div>
+      </div>
+</body>
+</html>

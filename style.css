@@ -1,0 +1,13 @@
+body {
+    background-color:powderblue;
+}
+.box{
+    background-color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    
+}
